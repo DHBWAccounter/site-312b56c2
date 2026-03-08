@@ -6,10 +6,10 @@ import { Menu, X, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navigation = [
+  { name: "Products", href: "/products" },
   { name: "Features", href: "#features" },
   { name: "Pricing", href: "#pricing" },
   { name: "About", href: "#about" },
-  { name: "Resources", href: "#resources" },
 ];
 
 export function Header() {
